@@ -21,15 +21,45 @@ public class Zad11 {
 
         if (t1 < t2 && t1 < t3)
         {
-            System.out.println(i1 +" jest pierwszy");
+            System.out.println(i3);
+            if(t3<t2)
+            {
+                System.out.println(i3);
+                System.out.println(i2);
+            }
+            if(t2<t3)
+            {
+                System.out.println(i2);
+                System.out.println(i3);
+            }
         }
         else if (t2 < t1 && t2 < t3)
         {
-            System.out.println(i1 +" jest drogi");
+            System.out.println(i2);
+            if(t1<t3)
+            {
+                System.out.println(i1);
+                System.out.println(i3);
+            }
+            if(t3<t1)
+            {
+                System.out.println(i3);
+                System.out.println(i1);
+            }
         }
         else if (t3 < t1 && t3 < t2)
         {
-            System.out.println(i1 +" jest trzeci");
+            System.out.println(i3);
+            if(t1<t2)
+            {
+                System.out.println(i1);
+                System.out.println(i2);
+            }
+            if(t2<t1)
+            {
+                System.out.println(i2);
+                System.out.println(i1);
+            }
         }
 
 
