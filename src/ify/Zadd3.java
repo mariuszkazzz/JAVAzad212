@@ -1,4 +1,6 @@
+
 package ify;
+
 
 import java.util.Scanner;
 
